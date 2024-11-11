@@ -1,10 +1,12 @@
 package com.learn.SpringCorePractice.Component;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Product {
 
+	@Value("101")
 	private int id;
 	private String name;
 	private int price;
