@@ -8,7 +8,7 @@ public class ProductMain {
 	public static void main(String[] args) {
 		
 		ApplicationContext context=
-		new AnnotationConfigApplicationContext();
+		new AnnotationConfigApplicationContext(ProductConfig.class);
 		
 		context.getBean();
 	}
