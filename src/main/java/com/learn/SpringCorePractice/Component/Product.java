@@ -8,6 +8,7 @@ public class Product {
 
 	@Value("101")
 	private int id;
+	@Value("laptop")
 	private String name;
 	private int price;
 	public int getId() {
