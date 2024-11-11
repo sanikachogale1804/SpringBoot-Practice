@@ -11,6 +11,7 @@ public class ProductMain {
 		new AnnotationConfigApplicationContext(ProductConfig.class);
 		
 		Product p1 = context.getBean("product",Product.class);
+		System.out.println(p1);
 	}
 
 }
