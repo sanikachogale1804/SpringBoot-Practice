@@ -36,6 +36,10 @@ public class Product {
 		this.name = name;
 		this.price = price;
 	}
+	public Product() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	
 	
