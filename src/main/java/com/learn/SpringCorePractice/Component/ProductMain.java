@@ -10,6 +10,7 @@ public class ProductMain {
 		ApplicationContext context=
 		new AnnotationConfigApplicationContext();
 		
+		context.getBean();
 	}
 
 }
