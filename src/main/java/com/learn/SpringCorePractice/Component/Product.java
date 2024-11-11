@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Product {
 
-	@Value("101")
+	@Value("102")
 	private int id;
 	@Value("laptop")
 	private String name;
