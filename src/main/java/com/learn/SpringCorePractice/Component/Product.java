@@ -10,6 +10,7 @@ public class Product {
 	private int id;
 	@Value("laptop")
 	private String name;
+	@Value("50000")
 	private int price;
 	public int getId() {
 		return id;
