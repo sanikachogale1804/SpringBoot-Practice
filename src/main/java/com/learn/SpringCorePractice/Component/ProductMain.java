@@ -12,6 +12,8 @@ public class ProductMain {
 		
 		Product p1 = context.getBean("product",Product.class);
 		System.out.println(p1);
+		
+		Product p2 = context.getBean("product",Product.class);
 	}
 
 }
